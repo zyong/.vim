@@ -98,6 +98,10 @@ nnoremap <F2> :NERDTreeToggle<CR>
 let g:sparkupExecuteMapping = '<leader><tab>'
 let g:sparkupNextMapping = '<c-e>'
 
+"增加python dict
+let g:pydiction_location = '~/.vim/tools/pydiction/complete-dict'
+let g:pydiction_menu_height = 3
+
 "自动开启neocomplcache
 let g:neocomplcache_enable_at_startup = 1 
 let g:neocomplcache_enable_auto_select = 1 
